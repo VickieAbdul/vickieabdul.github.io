@@ -370,15 +370,16 @@ section {
 
 .project-image {
     position: relative;
+    min-height: 300px;
+    max-height: 300px;  /* ADD THIS - caps the height */
     background: var(--bg-lighter);
-    overflow: hidden;
+    overflow: hidden;    /* ADD THIS - cuts off overflow */
 }
 
 .project-image img {
     width: 100%;
-    height: auto;           /* CHANGED from 100% to auto */
-    max-height: 300px;      /* ADD THIS */
-    object-fit: contain;    /* CHANGED from cover to contain */
+    height: 100%;
+    object-fit: cover;
 }
 
 .project-image img {
