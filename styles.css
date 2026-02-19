@@ -273,6 +273,10 @@ section {
     background: var(--bg-white);
 }
 
+.about-text {
+    text-align: center;
+}
+
 .about-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
