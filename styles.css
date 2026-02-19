@@ -110,9 +110,9 @@ body {
 
 .hero-title {
     font-family: 'Playfair Display', serif;
-    font-size: 2.25rem;
+    font-size: 2.25rem;     
     font-weight: 700;
-    line-height: 1.2;
+    line-height: 1.3;
     color: var(--navy-dark);
     margin-bottom: 0.5rem;
 }
