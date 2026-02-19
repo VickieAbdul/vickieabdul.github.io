@@ -370,22 +370,19 @@ section {
 
 .project-image {
     position: relative;
-    min-height: 300px;
-    max-height: 300px;  /* ADD THIS - caps the height */
-    background: var(--bg-lighter);
-    overflow: hidden;    /* ADD THIS - cuts off overflow */
+    height: 400px; /* Increased height to give your data room to breathe */
+    background: #f4f4f4; /* Subtle grey background for the "empty" space */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
 }
 
 .project-image img {
     width: 100%;
     height: 100%;
-    object-fit: cover;
-}
-
-.project-image img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+    object-fit: contain; /* THE FIX: This shows the WHOLE image without cropping */
+    padding: 20px; /* Keeps the screenshot from touching the edges */
 }
 
 .image-placeholder {
