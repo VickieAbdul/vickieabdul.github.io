@@ -370,7 +370,7 @@ section {
 
 .project-image {
     position: relative;
-    min-height: 400px;
+    min-height: 300px;  /* Changed from 400px */
     background: var(--bg-lighter);
 }
 
