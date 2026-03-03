@@ -333,16 +333,23 @@ section {
     background: var(--bg-light);
 }
 
+.project {
+    background: var(--bg-white);
+    border-radius: 8px;
+    box-shadow: var(--shadow-sm);
+    margin-bottom: 3rem;
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    transition: all 0.3s ease;
+}
+
+.project:hover {
+    box-shadow: var(--shadow-lg);
+}
+
 .project-reverse {
     grid-template-columns: 1fr 1fr;
-}
-
-.project-reverse .project-image {
-    order: 2;
-}
-
-.project-reverse .project-content {
-    order: 1;
 }
 
 .project-image {
