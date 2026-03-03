@@ -333,12 +333,16 @@ section {
     background: var(--bg-light);
 }
 
+.project-image {
+    position: relative;
+    background: var(--bg-lighter);
+}
+
 .project-image img {
     width: 100%;
     height: auto;
     display: block;
 }
-
 .project-reverse {
     grid-template-columns: 1fr 1fr;
 }
