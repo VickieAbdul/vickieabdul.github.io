@@ -339,10 +339,6 @@ section {
     display: block;
 }
 
-.project:hover {
-    box-shadow: var(--shadow-lg);
-}
-
 .project-reverse {
     grid-template-columns: 1fr 1fr;
 }
