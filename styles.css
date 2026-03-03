@@ -363,6 +363,7 @@ section {
 .project-image {
     position: relative;
     background: var(--bg-lighter);
+    min-height: 400px;
 }
 
 .project-image img {
