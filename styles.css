@@ -363,7 +363,7 @@ section {
 .project-image {
     position: relative;
     background: var(--bg-lighter);
-    height: 500px;
+    height: 400px;  /* ← Changed from 500px */
     overflow: hidden;
 }
 
