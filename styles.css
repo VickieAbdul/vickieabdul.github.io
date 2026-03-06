@@ -362,7 +362,7 @@ section {
 
 .project-image {
     position: relative;
-    background: var(--navy-dark);
+    background: var(--bg-light);
     display: flex;
     align-items: center;
     justify-content: center;
