@@ -363,12 +363,17 @@ section {
 .project-image {
     position: relative;
     background: var(--bg-lighter);
-    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 500px;
 }
 
 .project-image img {
     width: 100%;
     height: auto;
+    max-height: 500px;
+    object-fit: contain;
     display: block;
 }
 
