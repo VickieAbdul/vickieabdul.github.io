@@ -340,7 +340,7 @@ section {
     margin-bottom: 3rem;
     overflow: hidden;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 0.8fr 1.2fr;
     transition: all 0.3s ease;
 }
 
